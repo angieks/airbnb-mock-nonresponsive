@@ -1,0 +1,277 @@
+/*
+google font: Nunito
+
+brand red: #ff5358
+dark red: #e00007
+background grey: #efefef
+title grey: #edefed
+footer grey: #2B2D2E
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+    
+}
+
+nav {
+    background-color:#edefed;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+    margin-left: auto;
+    color: black;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/melbourne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.mel h1 {
+    position: relative;
+    font-size: 3rem;
+}
+
+
+.mel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+
+.button {
+    height: 10%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.fan {
+    height: 45%;
+    width: 50%;
+    background-color: #e00007;
+    color: white;
+}
+
+
+.locals {
+    width: 100vw;
+    height: 25vh;
+    margin: 0;
+    padding: 0px;
+    background-color: #efefef;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.locals ul {
+    background-color: #efefef ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.locals li {
+    list-style: none;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.locals div {
+    height: 65px;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.locals h5 {
+    height: 46px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+    background-color:#E0E0E0;
+
+}
+
+.locals p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
+.locals img {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    float: left;
+}
+
+.featured {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.neighborhoods {
+    margin: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.featured ul {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.featured li {
+    height: 45vh;
+    width: 25vw;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.featured header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.featured h3 {
+    font-size: 1.7rem;
+}
+
+.featured footer {
+    width: 25vw;
+    height: 9vh;
+    padding: 30px;
+    margin-top: 313px;
+    background-color: #efefef;
+    font-size: small;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.one {
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/fitzroy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+
+
+.two {
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/st-kilda.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three {
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/central-business-district.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.end {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.last {
+    height: 25%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .fn {
+    height: 20%;
+    width: 85%;
+    background-color: red;
+    color: white;
+ }
+
+.copy {
+    height: 11vh;
+    width: 100vw;
+    background-color: #2B2D2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+
+
+
